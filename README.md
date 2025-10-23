@@ -228,3 +228,50 @@ Relationships:
 A review belongs to one property and one user (guest).
 
 A property can have multiple reviews.
+
+# Feature Break down
+🎯 Objective:
+
+Detail the main features of the Airbnb Clone Project and explain how each feature contributes to the platform’s functionality and user experience.
+
+The project replicates core Airbnb operations through a modular architecture powered by Django, MySQL, and GraphQL. Each feature is designed to demonstrate practical backend development, relational data management, and API integration.
+
+👤 User Management
+
+This module handles user registration, authentication, and profile management. It supports both hosts (who list properties) and guests (who make bookings). Secure authentication, password hashing, and role-based access ensure data privacy and account protection.
+
+🏠 Property Management
+
+Allows hosts to create, update, and manage property listings. Each property includes details like title, description, price, and availability. This feature ensures properties are properly linked to the host’s account and displayed to potential guests for booking.
+
+📅 Booking System
+
+Manages the reservation process between guests and hosts. Guests can check availability, confirm bookings, and view booking histories. The system enforces rules such as preventing overlapping reservations and updates property availability dynamically.
+
+💳 Payment Integration
+
+Facilitates secure transactions between guests and hosts. This module handles booking payments, transaction verification, and payment status updates (pending, completed, failed). It can be extended to integrate external payment gateways such as PayPal or M-Pesa.
+
+⭐ Reviews & Ratings
+
+Enables guests to provide feedback on properties after their stay. Ratings and written reviews improve transparency and help other users make informed booking decisions. This system also supports moderation to maintain authenticity and fairness.
+
+🔍 Search & Filter
+
+Allows users to search for properties using filters such as location, price range, and property type. Efficient database querying ensures fast and relevant results, improving the browsing and booking experience for guests.
+
+🔐 Authentication & Security
+
+Implements secure login and signup processes with JWT (JSON Web Tokens) or session-based authentication. It ensures that only authorized users can access or modify their data, following standard security practices like input validation and encryption.
+
+⚙️ Admin Dashboard
+
+Provides administrative control for managing users, properties, and bookings. Admins can monitor platform activity, handle disputes, and ensure compliance with usage policies. This helps maintain platform integrity and operational stability.
+
+🧾 Notifications System (Optional Enhancement)
+
+Sends automated notifications (via email or in-app alerts) to users about booking confirmations, cancellations, and payment updates. This keeps both hosts and guests informed and engaged in real-time.
+
+🧩 Scalability & API Design
+
+All features are built using a modular API structure via GraphQL, allowing flexible data queries and improved performance. The backend can easily integrate with future frontend frameworks like React or Vue.js for full-stack deployment.
