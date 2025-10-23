@@ -275,3 +275,31 @@ Sends automated notifications (via email or in-app alerts) to users about bookin
 🧩 Scalability & API Design
 
 All features are built using a modular API structure via GraphQL, allowing flexible data queries and improved performance. The backend can easily integrate with future frontend frameworks like React or Vue.js for full-stack deployment.
+
+# Api Security
+Ensuring robust API security is critical in the Airbnb Clone Project to protect sensitive user data, prevent unauthorized access, and maintain the integrity of the platform. The following key security measures will be implemented:
+
+🔐 1. Authentication
+
+Description: Authentication verifies the identity of users accessing the platform. We will implement JWT (JSON Web Tokens) for secure session management and user login.
+Importance: Protects user accounts and ensures that only verified users can access or modify their data, preventing impersonation or unauthorized logins.
+
+🔑 2. Authorization
+
+Description: Authorization defines what authenticated users are allowed to do within the system. Role-based access control (RBAC) will be used to differentiate permissions between users (e.g., host, guest, admin).
+Importance: Ensures that users can only access and modify data relevant to their roles, preventing unauthorized data manipulation or exposure.
+
+🚦 3. Rate Limiting
+
+Description: Rate limiting restricts the number of API requests a user or IP address can make in a given time period. Tools like Django REST Framework Throttling will be applied.
+Importance: Prevents abuse such as brute-force login attempts or denial-of-service (DoS) attacks by limiting excessive API calls.
+
+🧱 4. Data Encryption
+
+Description: Sensitive information such as passwords, payment details, and user identities will be encrypted using industry standards like HTTPS (SSL/TLS) and hashed passwords (via Django’s make_password).
+Importance: Prevents data breaches and ensures that even if data is intercepted, it remains unreadable to unauthorized parties.
+
+🕵️‍♀️ 5. Input Validation and Sanitization
+
+Description: Input validation ensures all incoming data is clean and adheres to expected formats, preventing SQL injection and cross-site scripting (XSS) attacks.
+Importance: Maintains database integrity and ensures malicious scripts or invalid data cannot compromise the system.
