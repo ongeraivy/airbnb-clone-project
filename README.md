@@ -1,4 +1,4 @@
-# airbnb-clone-project
+## airbnb-clone-project
 Learning Backend Programming, airbnb-clone-project
 # About the Project
 The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
@@ -16,7 +16,7 @@ Develop an understanding of integrating technologies like Django, MySQL, and Gra
 Django
 MySQL
 GraphQL
-# Team Roles
+## Team Roles
 Project Manager (PM)
 
 Objective: Ensure timely delivery, budget adherence, and coordinated teamwork.
@@ -229,7 +229,7 @@ A review belongs to one property and one user (guest).
 
 A property can have multiple reviews.
 
-# Feature Break down
+## Feature Break down
 🎯 Objective:
 
 Detail the main features of the Airbnb Clone Project and explain how each feature contributes to the platform’s functionality and user experience.
@@ -276,7 +276,7 @@ Sends automated notifications (via email or in-app alerts) to users about bookin
 
 All features are built using a modular API structure via GraphQL, allowing flexible data queries and improved performance. The backend can easily integrate with future frontend frameworks like React or Vue.js for full-stack deployment.
 
-# Api Security
+## Api Security
 Ensuring robust API security is critical in the Airbnb Clone Project to protect sensitive user data, prevent unauthorized access, and maintain the integrity of the platform. The following key security measures will be implemented:
 
 🔐 1. Authentication
@@ -304,7 +304,7 @@ Importance: Prevents data breaches and ensures that even if data is intercepted,
 Description: Input validation ensures all incoming data is clean and adheres to expected formats, preventing SQL injection and cross-site scripting (XSS) attacks.
 Importance: Maintains database integrity and ensures malicious scripts or invalid data cannot compromise the system.
 
-# CI/CD Pipeline
+## CI/CD Pipeline
 CI/CD (Continuous Integration and Continuous Deployment) is a modern software development practice that automates the process of integrating code changes, testing them, and deploying updates to production. Continuous Integration (CI) ensures that all new code is tested and merged regularly, while Continuous Deployment (CD) automates the release of verified code to production environments.
 
 🚀 Importance in This Project
