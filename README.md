@@ -303,3 +303,30 @@ Importance: Prevents data breaches and ensures that even if data is intercepted,
 
 Description: Input validation ensures all incoming data is clean and adheres to expected formats, preventing SQL injection and cross-site scripting (XSS) attacks.
 Importance: Maintains database integrity and ensures malicious scripts or invalid data cannot compromise the system.
+
+# CI/CD Pipeline
+CI/CD (Continuous Integration and Continuous Deployment) is a modern software development practice that automates the process of integrating code changes, testing them, and deploying updates to production. Continuous Integration (CI) ensures that all new code is tested and merged regularly, while Continuous Deployment (CD) automates the release of verified code to production environments.
+
+🚀 Importance in This Project
+
+In the Airbnb Clone Project, implementing a CI/CD pipeline ensures:
+
+Faster Development: Automating build, test, and deployment processes allows the team to deliver new features and bug fixes more quickly.
+
+Improved Code Quality: Automated testing during integration helps identify and fix errors early, ensuring system stability.
+
+Team Collaboration: Developers can work on different features simultaneously without disrupting each other’s progress.
+
+Reliability & Consistency: Automated deployment guarantees that each release follows the same process, reducing human error.
+
+🧰 Tools Used
+
+To build and manage the CI/CD pipeline, the following tools will be used:
+
+GitHub Actions: For automating workflows such as testing, building, and deploying code when changes are pushed to the repository.
+
+Docker: To containerize the application and ensure consistent environments across development, testing, and production.
+
+Jenkins (optional): For advanced CI/CD automation and integration with multiple services.
+
+AWS / Heroku: As deployment platforms for hosting the application in a scalable and secure environment.
