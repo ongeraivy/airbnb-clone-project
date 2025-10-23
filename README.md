@@ -106,7 +106,7 @@ Document GraphQL schema, backend endpoints, data models, setup guides.
 Maintain README, wiki, and ensure documentation stays up to date with changes.
 it's a critical supporting role for clarity and knowledge transfer.
 
-#Database Design
+## Database Design
 This database supports core platform operations such as property listings, user management, bookings, reviews, and payment processing. It ensures data consistency, scalability, and relational integrity across all modules.
 
 🧍 1. Users
